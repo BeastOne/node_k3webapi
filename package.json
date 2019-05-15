@@ -1,0 +1,28 @@
+{
+  "name": "kingdee-k3-webapi",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodash": "^4.17.3",
+    "uuid": "^3.3.2"
+  },
+  "description": "The web api of Kingdee K3 cloud.",
+  "engines": {
+    "node": ">= 8.2"
+  },
+  "homepage": "https://github.com/BeastOne/node_k3webapi",
+  "main": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kingdee",
+    "k3",
+    "webapi"
+  ],
+  "author": "Quin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BeastOne/node_k3webapi.git"
+  }
+}
