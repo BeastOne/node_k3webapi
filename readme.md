@@ -11,6 +11,7 @@ Installation
 ```Bash
 $ npm i -g kingdee-k3-webapi
 $ npm i --save kingdee-k3-webapi
+```
 
 ###In Node.js:
 
@@ -57,5 +58,6 @@ client.login('dbId', 'user', 'appId', 'appSecret', lang)
     console.log('Log on to K3 Cloud failed.');
     console.log(err.message);
   });
+```
 
-##See the package source for more details.
+####See the package source for more details.
