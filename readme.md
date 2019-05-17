@@ -60,4 +60,4 @@ client.login('dbId', 'user', 'appId', 'appSecret', lang)
   });
 ```
 
-####See the package source for more details.
+See the [package source](https://github.com/BeastOne/node_k3webapi)  for more details.
