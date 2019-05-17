@@ -6,14 +6,16 @@ The Kingdee K3 web api library exported as Node.js modules.
 Installation
 ===========================
 
-######Using npm:
+###Using npm:
 
+```Bash
 $ npm i -g kingdee-k3-webapi
 $ npm i --save kingdee-k3-webapi
 
-######In Node.js:
+###In Node.js:
 
-const K3CloudApiClient = require('kingdee-k3-webapi');
+```Javascript
+var K3CloudApiClient = require('kingdee-k3-webapi');
 
 var client = new K3CloudApiClient('http://your.k3.site');
 
@@ -56,4 +58,4 @@ client.login('dbId', 'user', 'appId', 'appSecret', lang)
     console.log(err.message);
   });
 
-###########See the package source for more details.
+##See the package source for more details.
